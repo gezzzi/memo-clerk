@@ -1,0 +1,37 @@
+{
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "memo-clerk.vercel.app"
+        }
+      ],
+      "destination": "https://memo-clerk.techstepsite.com/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "memo-clerk-gezzzis-projects.vercel.app"
+        }
+      ],
+      "destination": "https://memo-clerk.techstepsite.com/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "memo-clerk-git-main-gezzzis-projects.vercel.app"
+        }
+      ],
+      "destination": "https://memo-clerk.techstepsite.com/:path*",
+      "permanent": true
+    }
+  ]
+} 
